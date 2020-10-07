@@ -7,8 +7,6 @@ function handleClick(e) {
   displayMessage(greet(timeString))
 }
 
-/* End Given Code, don't edit above here...*/
-
 // returns a greeting based on the given argument, a time
 function greet(time) {
   let timeStr = time.split(":").join("");
@@ -22,8 +20,7 @@ function greet(time) {
   };
 }
 
-// updates the text inside the #greeting nodes
+// updates the text inside the #greeting node
 function displayMessage(newText) {
-  let element = document.getElementById("greeting");
-  element.innerText = `${newText}`;
+  document.getElementById("greeting").innerText = newText;
 }

@@ -4,7 +4,7 @@
 
 - Create a JavaScript function triggered by an event
 
-## Introduction
+## Introduction 
 
 In JavaScript, functions are what's known as [first-class citizens](https://en.wikipedia.org/wiki/First-class_function) 
 of the language. This means they can be treated like any other variable: they 
